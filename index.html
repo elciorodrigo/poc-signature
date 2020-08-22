@@ -21,11 +21,21 @@
     <div>
         <button id="save">Salvar</button>
         <button id="clear">Apagar</button>
+        <input type="button" value="Lock - Portrait" onclick="lock('landscape')"/>
     </div>
 
 </body>
 <script>
     
+    function lock(orientation){
+
+        // if(document.documentElement.requestFullscreen){
+
+        // }
+        screen.orientation.lock(orientation);
+        
+    }
+
     var signaturePad = new SignaturePad(document.getElementById('signature-pad'), {
         backgroundColor: 'rgba(255, 255, 255, 0)',
         penColor: 'rgb(0, 0, 0)'
