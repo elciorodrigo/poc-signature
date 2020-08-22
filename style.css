@@ -1,6 +1,7 @@
 .wrapper {
     position: relative;
- 
+    width: 700;
+    height: 250;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -16,7 +17,8 @@
     position: relative;
     left: 0;
     top: 0;
-   
+    width:700;
+    height:250;
     border: 1px solid black;
   }
 
