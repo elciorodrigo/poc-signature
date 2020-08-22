@@ -16,7 +16,7 @@
     </h3>
     <div class="wrapper" class="center">
 
-        <canvas id="signature-pad" class="signature-pad wrapper" ></canvas>
+        <canvas id="signature-pad" class="signature-pad" width=400 height=200></canvas>
     </div>
     <div>
         <button id="save">Salvar</button>
@@ -25,15 +25,7 @@
 
 </body>
 <script>
-
-window.onload = function(){
-    screen.msLockOrientation.lock("portrait-primary");
-    screen.mozLockOrientation.lock("portrait-primary");
-}
-
     
-    
-
     var signaturePad = new SignaturePad(document.getElementById('signature-pad'), {
         backgroundColor: 'rgba(255, 255, 255, 0)',
         penColor: 'rgb(0, 0, 0)'

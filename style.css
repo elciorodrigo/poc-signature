@@ -1,7 +1,6 @@
 .wrapper {
     position: relative;
-    width: 90%; /* para navegadores que não suportam calc() */
-    width: calc(100% - 100px); /* para suporte nativo */
+    width: 400;
     height: 200;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -18,8 +17,7 @@
     position: relative;
     left: 0;
     top: 0;
-    width: 90%; /* para navegadores que não suportam calc() */
-    width: calc(100% - 100px); /* para suporte nativo */
+    width:400;
     height:200;
     border: 1px solid black;
   }
